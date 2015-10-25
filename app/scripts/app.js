@@ -12,8 +12,12 @@
     .config(function($routeProvider) {
       $routeProvider
         .when('/', {
-          templateUrl: 'views/home.html',
-          controller: 'HomeCtrl'
+          templateUrl: 'views/appleWatch.html',
+          controller: 'appleWatchCtrl'
+        })
+        .when('/applewatch', {
+          templateUrl: 'views/appleWatch.html',
+          controller: 'appleWatchCtrl'
         })
         .when('/404', {
           templateUrl: '404.html'

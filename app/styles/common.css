@@ -1,0 +1,33 @@
+/**
+ * Created on October 25, 2015 by George Ruan.
+ *
+ * Stylesheet for common styles.
+ */
+
+ /* ============= BREAKS ============= */
+.small-break-container {
+  margin-left: 1%;
+  width: 100px;
+}
+
+.small-break {
+  border-color: #A381C0;
+}
+
+ /* ============= CONTAINER ============= */
+.container-light {
+  background-color: #E9E7E7;
+}
+
+.container-dark {
+  background-color: #634180;
+}
+
+.full-width {
+  width: 100%;
+}
+
+ /* ============= TEXT ============= */
+.text-light {
+  color: #121212;
+}

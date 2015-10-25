@@ -1,0 +1,34 @@
+/**
+ * Created on October, 2015 by George Ruan.
+ *
+ * Stylesheet for lisaNavBar.
+ */
+
+/* ============= CONTAINERS ============= */
+#nav > div {
+  padding: 5% 0 5% 0;
+}
+
+#navbar {
+  display:-moz-box;
+  -moz-box-pack:center;
+  -moz-box-align:center;
+
+  /* Safari and Chrome */
+  display:-webkit-box;
+  -webkit-box-pack:center;
+  -webkit-box-align:center;
+
+  /* W3C */
+  display:box;
+  box-pack:center;
+  box-align:center;
+
+  width: 80%;
+  margin: 0 auto;
+}
+
+#navbar li {
+  width:33%;
+  text-align: center;
+}
