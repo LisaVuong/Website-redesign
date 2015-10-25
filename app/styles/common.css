@@ -56,6 +56,21 @@
   width: 100%
 }
 
+.row-fluid:after,
+.row-fluid:before {
+  display: table;
+  content: " ";
+}
+
+.row-fluid:after {
+  clear: both
+}
+
+.row-fluid {
+  margin-left: 0;
+  margin-right: 0;
+}
+
  /* ============= TEXT ============= */
 .text-light {
   color: #121212;
