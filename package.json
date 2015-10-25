@@ -1,0 +1,10 @@
+{
+  "name"          : "Lisa",
+  "version"       : "0.0.0",
+  "description"   : "Personal Website",
+  "main"          : "server.js",
+  "author"        : "George Ruan and Lisa Vuong",
+  "dependencies"  : {
+    "express"         : "~4.7.2"
+  }
+}
