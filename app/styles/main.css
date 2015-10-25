@@ -32,11 +32,28 @@
    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
  }
 
+ h2 {
+   font-size: 1.2em;
+ }
+
+ h3 {
+   font-size: 1em;
+   font-weight: normal;
+ }
+
+ h4 {
+   text-transform: uppercase;
+ }
+
  p {
-     line-height: 1.75;
+     line-height: 1.5;
  }
 
  section {
+   position: relative;
+ }
+
+ div {
    position: relative;
  }
 

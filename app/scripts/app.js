@@ -13,11 +13,11 @@
       $routeProvider
         .when('/', {
           templateUrl: 'views/appleWatch.html',
-          controller: 'appleWatchCtrl'
+          controller: 'AppleWatchCtrl'
         })
         .when('/applewatch', {
           templateUrl: 'views/appleWatch.html',
-          controller: 'appleWatchCtrl'
+          controller: 'AppleWatchCtrl'
         })
         .when('/404', {
           templateUrl: '404.html'

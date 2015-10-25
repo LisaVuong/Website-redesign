@@ -1,0 +1,16 @@
+/**
+ * Created on October 25, 2015 by George Ruan.
+ *
+ * Stylesheet for Applewatch page.
+ */
+
+/* ============= IMAGES ============= */
+.placeholder .placeholder-img {
+  background: url('../images/400.jpeg') no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+}

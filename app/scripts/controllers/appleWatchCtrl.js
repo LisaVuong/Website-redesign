@@ -8,11 +8,11 @@
   'use strict';
 
   angular.module('lisa')
-    .controller('HomeCtrl', homeCtrl);
+    .controller('AppleWatchCtrl', appleWatchCtrl);
 
-    homeCtrl.$inject = ['$scope', '$interval'];
+    appleWatchCtrl.$inject = ['$scope', '$interval'];
 
-    function homeCtrl ($scope, $interval) {
+    function appleWatchCtrl ($scope, $interval) {
 
     }
 })();

@@ -5,26 +5,55 @@
  */
 
  /* ============= BREAKS ============= */
-.small-break-container {
+.header-break-container {
   margin-left: 1%;
-  width: 100px;
 }
 
-.small-break {
+.small-break-container {
+  width: 50px;
+}
+
+.dark-break {
   border-color: #A381C0;
 }
 
+.light-break {
+  border-color: #DDD;
+}
+
+.bold-break {
+  border-width: 5px;
+}
+
+.left-dark-vertical-break {
+  border-left: 1px solid #A381C0;
+}
+
  /* ============= CONTAINER ============= */
+
+.container-light,
+.container-medium,
+.container-dark {
+  padding: 3% 0 5% 0;
+}
+
 .container-light {
-  background-color: #E9E7E7;
+  background-color: transparent;
+  color: black;
+}
+
+.container-medium {
+  background-color: #EEE;
+  color: black;
 }
 
 .container-dark {
   background-color: #634180;
+  color: white;
 }
 
 .full-width {
-  width: 100%;
+  width: 100%
 }
 
  /* ============= TEXT ============= */

@@ -17,6 +17,7 @@
 
     <link href="styles/common.css" rel="stylesheet">
     <link href="styles/main.css" rel="stylesheet">
+    <link href="styles/applewatch.css" rel="stylesheet">
     <link href="styles/lisaNavBar.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -29,9 +30,11 @@
 </head>
 
 <body ng-app="lisa">
-    <lisa-nav-bar></lisa-nav-bar>
-    <div class="">
-        <div class="full-height" ng-view></div>
+    <div class="fluid-container">
+        <lisa-nav-bar></lisa-nav-bar>
+        <div class="">
+            <div class="full-height" ng-view></div>
+        </div>
     </div>
 
 
